@@ -17,6 +17,7 @@ p{
     align-items: center;
     gap: 7px;
     margin-left: 12px;
+    position: absolute;
     
 }
 .ListName p{
@@ -95,8 +96,10 @@ p{
     align-items: center;
     justify-content: end;
     width: 50vw;
-    padding-right: 16px;
+    /* padding-right: -16px; */
+    margin-left: 650px;
     gap: 7px;
+    position: absolute;
 }
 
 .power-ups p{
@@ -211,4 +214,39 @@ p{
     
 }
 
+.dropChangeBackground{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 85vw;
+    height: 200px;
+    width: 200px;
+    display: none;
+    color: black;
+   
+}
 
+.dropChangeBackground2 { 
+    position: relative;
+    margin-top: 310px;
+    margin-left: 85vw;
+    height: 250px;
+    width: 200px;
+    /* background-color: hsla(12,28.7%,17.1%,0.4); */
+    color: black;
+    
+    display: block;
+    transition: 1s;
+}
+
+.dropChangeBackground2 h3{
+ margin-bottom: 10px;
+ margin-left: 5px;
+ color: white;
+}
+.img2{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
